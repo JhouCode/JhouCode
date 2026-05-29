@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" role="img" aria-label="Jhonatan Viana — Infraestrutura, Automação, Sistemas resilientes">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1018"/>
+      <stop offset="1" stop-color="#07090f"/>
+    </linearGradient>
+    <linearGradient id="alertLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#fb7185" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#fb7185" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fb7185" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="calmLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#7dd3fc" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="alertArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#fb7185" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="calmArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.55">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="1280" height="360" rx="14" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="14" fill="url(#glow)"/>
+
+  <!-- subtle terminal chrome -->
+  <rect x="0" y="0" width="1280" height="36" rx="14" fill="#0d121c"/>
+  <rect x="0" y="22" width="1280" height="14" fill="#0d121c"/>
+  <line x1="0" y1="36" x2="1280" y2="36" stroke="#1a2030" stroke-width="1"/>
+  <circle cx="22" cy="18" r="5.5" fill="#fb7185" opacity="0.85"/>
+  <circle cx="42" cy="18" r="5.5" fill="#fbbf24" opacity="0.85"/>
+  <circle cx="62" cy="18" r="5.5" fill="#34d399" opacity="0.85"/>
+  <text x="640" y="23" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#5b6478">jhou@wow-server: ~</text>
+
+  <!-- threshold dashed line -->
+  <line x1="60" y1="290" x2="1220" y2="290" stroke="#fb7185" stroke-opacity="0.18" stroke-dasharray="3 5" stroke-width="0.8"/>
+
+  <!-- background chart: chaos -> calm -->
+  <path d="M 60,300 L 70,298 L 80,302 L 90,295 L 100,304 L 110,288 L 120,305 L 130,299 L 140,283 L 150,303
+           L 160,296 L 170,305 L 180,290 L 190,302 L 200,294 L 210,304 L 220,287 L 230,303 L 240,298 L 250,302
+           L 260,292 L 270,304 L 280,289 L 290,303 L 300,295 L 310,304 L 320,291 L 330,303 L 340,297 L 350,302
+           L 360,295 L 370,303 L 380,291 L 390,302 L 400,296 L 410,302 L 420,295 L 430,301 L 440,297 L 450,300
+           L 470,300 L 510,299 L 560,300 L 620,299 L 680,300 L 740,299 L 800,300 L 860,299 L 920,300
+           L 980,299 L 1040,300 L 1100,299 L 1160,300 L 1220,299
+           L 1220,360 L 60,360 Z"
+        fill="url(#alertArea)"/>
+
+  <path d="M 450,300 L 470,300 L 510,299 L 560,300 L 620,299 L 680,300 L 740,299 L 800,300
+           L 860,299 L 920,300 L 980,299 L 1040,300 L 1100,299 L 1160,300 L 1220,299
+           L 1220,360 L 450,360 Z"
+        fill="url(#calmArea)"/>
+
+  <path d="M 60,300 L 70,298 L 80,302 L 90,295 L 100,304 L 110,288 L 120,305 L 130,299 L 140,283 L 150,303
+           L 160,296 L 170,305 L 180,290 L 190,302 L 200,294 L 210,304 L 220,287 L 230,303 L 240,298 L 250,302
+           L 260,292 L 270,304 L 280,289 L 290,303 L 300,295 L 310,304 L 320,291 L 330,303 L 340,297 L 350,302
+           L 360,295 L 370,303 L 380,291 L 390,302 L 400,296 L 410,302 L 420,295 L 430,301 L 440,297 L 450,300"
+        fill="none" stroke="url(#alertLine)" stroke-width="1.4"/>
+
+  <path d="M 450,300 L 470,300 L 510,299 L 560,300 L 620,299 L 680,300 L 740,299 L 800,300
+           L 860,299 L 920,300 L 980,299 L 1040,300 L 1100,299 L 1160,300 L 1220,299"
+        fill="none" stroke="url(#calmLine)" stroke-width="1.6"/>
+
+  <!-- monogram -->
+  <g transform="translate(60, 108)">
+    <rect x="-2" y="-30" width="44" height="44" rx="8" fill="none" stroke="#1a2030" stroke-width="1"/>
+    <text x="20" y="3" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="20" fill="#7dd3fc">JV</text>
+  </g>
+
+  <!-- prompt + name -->
+  <text x="118" y="112" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#7dd3fc">~ $</text>
+  <text x="158" y="112" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#9aa3b5">whoami</text>
+
+  <text x="60" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="42" fill="#f6f8fc" letter-spacing="-0.5">Jhonatan Viana</text>
+  <text x="60" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="500" font-size="17" fill="#7dd3fc" letter-spacing="0.5">Infraestrutura · Automação · Sistemas resilientes</text>
+
+  <!-- divider -->
+  <line x1="60" y1="218" x2="240" y2="218" stroke="#1a2030" stroke-width="1"/>
+
+  <!-- tagline PT + EN -->
+  <text x="60" y="246" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#9aa3b5">Engenharia operacional para sistemas que não podem parar.</text>
+  <text x="60" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-style="italic" font-size="13" fill="#5b6478">Operational engineering for systems that can&apos;t go down.</text>
+
+  <!-- status pill -->
+  <g transform="translate(1080, 100)">
+    <rect x="0" y="0" width="140" height="28" rx="14" fill="#0c1018" stroke="#1a2030"/>
+    <circle cx="16" cy="14" r="4" fill="#34d399">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="18" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="11" fill="#e9edf5">jhou tbc · live</text>
+  </g>
+
+  <!-- meta line -->
+  <text x="1220" y="246" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="11" fill="#3a4253">cariacica · es · br</text>
+  <text x="1220" y="266" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="11" fill="#3a4253">pense rede · ti</text>
+</svg>
