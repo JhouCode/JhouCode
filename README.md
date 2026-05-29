@@ -162,9 +162,7 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
 </table>
 
 <p align="center">
-  <a href="https://github.com/JhouCode">
-    <img alt="Top languages — JhouCode" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JhouCode&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=520&bg_color=07090F&title_color=7DD3FC&text_color=BAE6FD&border_color=1A2030&icon_color=BAE6FD&hide_border=false&count_private=true&custom_title=top%20languages%20%2F%2F%20last%2012%20months"/>
-  </a>
+  <img alt="Top languages — code distribution: jhou tbc + public repos" src="./assets/top-langs.svg" width="60%"/>
 </p>
 
 <br/>
