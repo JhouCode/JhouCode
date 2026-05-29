@@ -36,12 +36,24 @@ jobs:
           repositories_affiliations: owner
           repositories_skipped: JhouCode/cursos
 
+          # === identidades de commit ===
+          # action filtra commits por autor. lista TODAS as identidades
+          # que aparecem em git log (web GH, servidor, gmail antigo, etc.)
+          commits_authoring: >-
+            JhouCode,
+            jhou@jhou.tech,
+            jhonatan.pgd@gmail.com,
+            JhouCode@users.noreply.github.com,
+            users.noreply.github.com
+
           # === languages ===
           # indepth: yes → conta linhas autoradas via git log (NÃO bytes).
           # exclui automaticamente código de terceiros (venv do cursos,
           # libs commitadas) — só conta o que o Jhou escreveu.
           plugin_languages: yes
           plugin_languages_indepth: yes
+          # força incluir repos que a auto-discovery pode estar perdendo
+          plugin_languages_indepth_custom: JhouCode/jhou-tbc-server
           plugin_languages_analysis_timeout: 30
           plugin_languages_analysis_timeout_repositories: 20
           plugin_languages_categories: markup, programming
