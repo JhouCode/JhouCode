@@ -161,6 +161,10 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
   </tr>
 </table>
 
+<p align="center">
+  <img alt="Languages — top 8 (private repos included via PAT)" src="./github-metrics.svg" width="60%"/>
+</p>
+
 <br/>
 
 <h3 id="now">&nbsp;<code>~/now</code></h3>
