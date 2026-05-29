@@ -161,6 +161,12 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
   </tr>
 </table>
 
+<p align="center">
+  <a href="https://github.com/JhouCode">
+    <img alt="Top languages — JhouCode" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JhouCode&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=520&bg_color=07090F&title_color=7DD3FC&text_color=BAE6FD&border_color=1A2030&icon_color=BAE6FD&hide_border=false&count_private=true&custom_title=top%20languages%20%2F%2F%20last%2012%20months"/>
+  </a>
+</p>
+
 <br/>
 
 <h3 id="now">&nbsp;<code>~/now</code></h3>
@@ -182,10 +188,6 @@ $ tail -1 ~/now.log
 
 <p align="center">
   <sub><code>~$ uptime &nbsp;—&nbsp; sistemas em pé desde que aprendi a derrubá-los com cuidado.</code></sub>
-</p>
-
-<p align="center">
-  <img src="./assets/palette.svg" alt="" width="60%" style="opacity:0.7"/>
 </p>
 
 <p align="center">
