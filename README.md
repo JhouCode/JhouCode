@@ -14,7 +14,24 @@
 
 <br/>
 
-<h3>&nbsp;<code>~/sobre</code></h3>
+<table>
+<tr><td>
+
+```bash
+$ ls -la ~/
+
+drwxr-xr-x   sobre/         # quem é
+drwxr-xr-x   laboratorio/   # o que construí
+drwxr-xr-x   stack/         # ferramentas
+-rw-r--r--   now.log        # no que estou agora
+```
+
+</td></tr>
+</table>
+
+<br/>
+
+<h3 id="sobre">&nbsp;<code>~/sobre</code></h3>
 
 Especialista em Soluções de TI na **Pense Rede** (Cariacica, ES). Trabalho no ponto em que infraestrutura encontra produto — desde a operação que sustenta o sistema até a decisão técnica que define o roadmap.
 
@@ -22,7 +39,7 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
 
 <br/>
 
-<h3>&nbsp;<code>~/laboratorio</code></h3>
+<h3 id="laboratorio">&nbsp;<code>~/laboratorio</code></h3>
 
 <table>
   <tr>
@@ -68,9 +85,36 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
   </tr>
 </table>
 
+<details>
+  <summary>&nbsp;<sub><b>📐 &nbsp; SERVICE MAP COMPLETO &nbsp; ·  &nbsp; abrir</b></sub></summary>
+  <br/>
+  <table>
+    <thead>
+      <tr>
+        <th align="left"><sub>CAMADA</sub></th>
+        <th align="left"><sub>COMPONENTE</sub></th>
+        <th align="left"><sub>FUNÇÃO</sub></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><sub><b>EDGE</b></sub></td><td><code>Cloudflare&nbsp;Tunnel</code></td><td><sub>publicação HTTPS sem porta exposta</sub></td></tr>
+      <tr><td><sub><b>EDGE</b></sub></td><td><code>nginx</code></td><td><sub>roteamento play / jhou / monitor</sub></td></tr>
+      <tr><td><sub><b>APP</b></sub></td><td><code>Flask&nbsp;+&nbsp;gunicorn (1w/8t)</code></td><td><sub>painel do jogador, registro double-opt-in, votos, LGPD</sub></td></tr>
+      <tr><td><sub><b>APP</b></sub></td><td><code>cMaNGOS-TBC&nbsp;(C++)</code></td><td><sub>core do jogo · patch consolidado próprio</sub></td></tr>
+      <tr><td><sub><b>DADOS</b></sub></td><td><code>MariaDB&nbsp;10.11</code></td><td><sub>realmd · characters · mangos · logs</sub></td></tr>
+      <tr><td><sub><b>OBS</b></sub></td><td><code>netdata</code></td><td><sub>cpu / mem / disco / rede em tempo real</sub></td></tr>
+      <tr><td><sub><b>SEC</b></sub></td><td><code>UFW&nbsp;+&nbsp;sysctl&nbsp;+&nbsp;fail2ban</code></td><td><sub>connlimit · SYN flood guard · brute-force</sub></td></tr>
+      <tr><td><sub><b>BACKUP</b></sub></td><td><code>backup-db.sh&nbsp;+&nbsp;repo privado</code></td><td><sub>dump diário rotativo · off-site automático</sub></td></tr>
+      <tr><td><sub><b>BOOT</b></sub></td><td><code>systemd&nbsp;+&nbsp;tmux&nbsp;+&nbsp;screen</code></td><td><sub>serviços managed · jogo em screen dentro do tmux</sub></td></tr>
+      <tr><td><sub><b>DEPLOY</b></sub></td><td><code>git&nbsp;+&nbsp;Makefiles&nbsp;+&nbsp;scripts</code></td><td><sub>SQL numerada · patches versionados · runbook próprio</sub></td></tr>
+    </tbody>
+  </table>
+  <p><sub>&nbsp;Tudo opera em bare-metal num único notebook Dell (Intel i5-4200U · 7.7 GB RAM · Ubuntu 24.04 LTS).</sub></p>
+</details>
+
 <br/>
 
-<h3>&nbsp;<code>~/stack</code></h3>
+<h3 id="stack">&nbsp;<code>~/stack</code></h3>
 
 <table>
   <tr>
@@ -116,6 +160,31 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
     </td>
   </tr>
 </table>
+
+<br/>
+
+<h3 id="now">&nbsp;<code>~/now</code></h3>
+
+<table>
+<tr><td>
+
+```log
+$ tail -1 ~/now.log
+[2026-05-29]  refatorando JS inline dos templates do painel para arquivos externos
+              e removendo 'unsafe-inline' do script-src no CSP. próximo na fila:
+              CSRF per-user (destrava multi-worker no gunicorn).
+```
+
+</td></tr>
+</table>
+
+<br/>
+
+<h3>&nbsp;<code>~/palette</code></h3>
+
+<p align="center">
+  <img src="./assets/palette.svg" alt="Paleta — cyan dessat (sky-300 → sky-200) · zinco · ok / alert" width="100%"/>
+</p>
 
 <br/>
 
