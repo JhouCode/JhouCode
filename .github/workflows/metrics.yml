@@ -31,12 +31,18 @@ jobs:
           config_timezone: America/Sao_Paulo
           filename: github-metrics.svg
 
+          # === escopo de repos ===
+          # crítico: 'all' inclui privados (jhou-tbc-server)
+          repositories_affiliations: owner
+          repositories_visibility: all
+          repositories_skipped: JhouCode/cursos
+
           # === languages ===
           plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 15
+          # indepth: no → conta bytes via Linguist em todos os repos
+          # (indepth só mexe nos últimos N commits → subrepresenta)
+          plugin_languages_indepth: no
           plugin_languages_categories: markup, programming
-          plugin_languages_recent_categories: markup, programming
           plugin_languages_limit: 8
           plugin_languages_threshold: 1%
           plugin_languages_sections: most-used
@@ -46,5 +52,3 @@ jobs:
           plugin_languages_ignored: >-
             jupyter-notebook, cython, fortran, forth, smarty,
             meson, batchfile, roff, powershell, makefile
-          # pula o repo cursos (tem venv commitada → distorce 88% pra Python)
-          plugin_languages_skipped: cursos
