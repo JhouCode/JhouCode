@@ -161,10 +161,6 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
   </tr>
 </table>
 
-<p align="center">
-  <img alt="Top languages — code distribution: jhou tbc + public repos" src="./assets/top-langs.svg" width="60%"/>
-</p>
-
 <br/>
 
 <h3 id="now">&nbsp;<code>~/now</code></h3>
