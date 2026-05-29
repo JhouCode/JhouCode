@@ -1,38 +1,50 @@
+<div align="center">
 
 # Jhonatan Viana
 
-Seja bem vindo ao meu perfil, sou estudante de programação atualmente estou em processo de migração de carreira.
+**Infraestrutura · Automação · Sistemas resilientes**
 
-Minha curiosidade fica destacada em vários aspectos da minha vida, gosto de me comunicar assertivamente.
+Engenharia operacional para sistemas que não podem parar.
+*Operational engineering for systems that can't go down.*
 
-Gosto muito de bixos e tenho 2 Pets 😺 uma gata a Havit e 🐶 o Thori'dal meu doguinho
+[![Site](https://img.shields.io/badge/jhou.tech-0c1018?style=flat-square&logo=icloud&logoColor=7dd3fc&labelColor=07090f)](https://jhou.tech)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0c1018?style=flat-square&logo=linkedin&logoColor=7dd3fc&labelColor=07090f)](https://www.linkedin.com/in/jhonatanviana/)
+[![Email](https://img.shields.io/badge/jhou%40jhou.tech-0c1018?style=flat-square&logo=maildotru&logoColor=7dd3fc&labelColor=07090f)](mailto:jhou@jhou.tech)
+[![DIO](https://img.shields.io/badge/DIO-0c1018?style=flat-square&logoColor=7dd3fc&labelColor=07090f)](https://dio.me/users/jhonatan_pgd)
+[![Instagram](https://img.shields.io/badge/Instagram-0c1018?style=flat-square&logo=instagram&logoColor=7dd3fc&labelColor=07090f)](https://www.instagram.com/jhonatan_viana/)
 
-### Conecte-se comigo
-
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-000?style=for-the-badge&logo=whatsapp&logoColor=)](https://wa.me/5527996215558)
-[![Instagram](https://img.shields.io/badge/-Instagram-000?style=for-the-badge&logo=instagram&logoColor=)](https://www.instagram.com/jhonatan_viana/)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=30A3DC)](https://www.linkedin.com/in/jhonatanviana/)
-
-[![Email](https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail&logoColor=red)](mailto:jhonatan.pgd@gmail.com)
-[![Perfil DIO](https://img.shields.io/badge/-Meu%20Perfil%20na%20DIO-000?style=for-the-badge)](https://dio.me/users/jhonatan_pgd)
-
-
-### Habilidades
-
-![HTML5](https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5&logoColor=30A3DC)
-![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=E94D5F)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)
-![Python](https://img.shields.io/badge/python-000?style=for-the-badge&logo=python&logoColor=)
-[![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc)
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
-
-### GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=JhouCode&theme=transparent&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF&hide_title=true&hide=stars)
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=JhouCode&layout=compact&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF&hide_title=true)
-
-### Meus Principais Desafios de Projeto DIO
-
-[![Repo DIO Git GitHub](https://github-readme-stats.vercel.app/api/pin/?username=JhouCode&repo=dio-lab-open-source&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)](https://github.com/JhouCode/dio-lab-open-source/tree/feat/community/JhouCode)
+</div>
 
 ---
+
+### Sobre
+
+Especialista em Soluções de TI na Pense Rede (Cariacica, ES). Trabalho no ponto onde infraestrutura encontra produto — desde a operação que sustenta o sistema até a decisão técnica que define o roadmap.
+
+Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada projeto vira um laboratório.
+
+---
+
+### Laboratório
+
+**[Jhou TBC](https://play.jhou.tech)** — servidor privado de WoW The Burning Crusade 2.4.3 em produção pública desde maio/2026. Operação solo: bare-metal Ubuntu 24.04, cMaNGOS-TBC (C++), MariaDB, Flask/gunicorn no painel, nginx + Cloudflare Tunnel, netdata pra observabilidade. Customizações no core, SQL versionado, backups off-site, hardening anti-DDoS, runbook próprio.
+
+> *Single-server private WoW TBC realm — live since May 2026. Solo ops: bare-metal Linux, C++ core, custom patches, hardened public exposure.*
+
+---
+
+### Tecnologias e ambientes
+
+**Operação & Infra** &nbsp; `Linux` &nbsp; `Ubuntu Server` &nbsp; `nginx` &nbsp; `systemd` &nbsp; `tmux` &nbsp; `Cloudflare Tunnel` &nbsp; `netdata` &nbsp; `fail2ban` &nbsp; `UFW`
+
+**Backend & Dados** &nbsp; `Python` &nbsp; `Flask` &nbsp; `gunicorn` &nbsp; `MariaDB` &nbsp; `C++` &nbsp; `Bash`
+
+**Web** &nbsp; `HTML` &nbsp; `CSS` &nbsp; `JavaScript`
+
+**Workflow** &nbsp; `Git` &nbsp; `GitHub` &nbsp; `Docker` &nbsp; `Make`
+
+---
+
+<div align="center">
+<sub><code>~$ uptime — sistemas em pé desde que aprendi a derrubá-los com cuidado.</code></sub>
+</div>
