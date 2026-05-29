@@ -34,7 +34,6 @@ jobs:
           # === escopo de repos ===
           # crítico: 'all' inclui privados (jhou-tbc-server)
           repositories_affiliations: owner
-          repositories_visibility: all
           repositories_skipped: JhouCode/cursos
 
           # === languages ===
