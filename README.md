@@ -5,11 +5,9 @@
 <p align="center">
   <a href="https://jhou.tech"><img alt="jhou.tech" src="https://img.shields.io/badge/-jhou.tech-0c1018?style=flat-square&logo=cloudflare&logoColor=bae6fd&labelColor=07090f"/></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/jhonatanviana/"><img alt="LinkedIn" src="https://img.shields.io/badge/-linkedin-0c1018?style=flat-square&logo=linkedin&logoColor=bae6fd&labelColor=07090f"/></a>
+  <a href="https://www.linkedin.com/in/jhonatanviana/"><img alt="LinkedIn" src="https://img.shields.io/badge/-linkedin-0c1018?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NSAyMC40NWgtMy41NlYxNC45YzAtMS4zMi0uMDMtMy4wMi0xLjg0LTMuMDItMS44NCAwLTIuMTMgMS40NC0yLjEzIDIuOTN2NS42NUg5LjM2VjloMy40MnYxLjU2aC4wNWEzLjc1IDMuNzUgMCAwMTMuMzctMS44NWMzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2ek01LjM0IDcuNDNhMi4wNiAyLjA2IDAgMTEwLTQuMTIgMi4wNiAyLjA2IDAgMDEwIDQuMTJ6bTEuNzggMTMuMDJIMy41NlY5aDMuNTZ6TTIyLjIyIDBIMS43N0MuOCAwIDAgLjc3IDAgMS43M3YyMC41NEMwIDIzLjIzLjggMjQgMS43NyAyNGgyMC40NWMuOTggMCAxLjc4LS43NyAxLjc4LTEuNzNWMS43M0MyNCAuNzcgMjMuMiAwIDIyLjIyIDB6Ii8%2BPC9zdmc%2B&logoColor=bae6fd&labelColor=07090f"/></a>
   &nbsp;
   <a href="mailto:jhou@jhou.tech"><img alt="Email" src="https://img.shields.io/badge/-jhou%40jhou.tech-0c1018?style=flat-square&logo=maildotru&logoColor=bae6fd&labelColor=07090f"/></a>
-  &nbsp;
-  <a href="https://dio.me/users/jhonatan_pgd"><img alt="DIO" src="https://img.shields.io/badge/-dio-0c1018?style=flat-square&logo=devdotto&logoColor=bae6fd&labelColor=07090f"/></a>
   &nbsp;
   <a href="https://www.instagram.com/jhonatan_viana/"><img alt="Instagram" src="https://img.shields.io/badge/-instagram-0c1018?style=flat-square&logo=instagram&logoColor=bae6fd&labelColor=07090f"/></a>
 </p>
@@ -81,7 +79,7 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
       <img alt="Linux" src="https://img.shields.io/badge/-Linux-0c1018?style=flat-square&logo=linux&logoColor=bae6fd&labelColor=07090f"/>
       <img alt="Ubuntu Server" src="https://img.shields.io/badge/-Ubuntu_Server-0c1018?style=flat-square&logo=ubuntu&logoColor=bae6fd&labelColor=07090f"/>
       <img alt="nginx" src="https://img.shields.io/badge/-nginx-0c1018?style=flat-square&logo=nginx&logoColor=bae6fd&labelColor=07090f"/>
-      <img alt="systemd" src="https://img.shields.io/badge/-systemd-0c1018?style=flat-square&logo=systemd&logoColor=bae6fd&labelColor=07090f"/>
+      <img alt="systemd" src="https://img.shields.io/badge/-systemd-0c1018?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOS40IDEzYTcuNSA3LjUgMCAwMDAtMmwyLTEuNi0yLTMuNS0yLjQgMWE3LjQgNy40IDAgMDAtMS43LTFMMTUgMy41aC00bC0uMyAyLjRhNy40IDcuNCAwIDAwLTEuNyAxbC0yLjQtMS0yIDMuNUw0LjYgMTFhNy41IDcuNSAwIDAwMCAybC0yIDEuNiAyIDMuNSAyLjQtMWMuNS40IDEuMS44IDEuNyAxbC4zIDIuNGg0bC4zLTIuNGE3LjQgNy40IDAgMDAxLjctMWwyLjQgMSAyLTMuNXpNMTIgMTUuNWEzLjUgMy41IDAgMTEwLTcgMy41IDMuNSAwIDAxMCA3eiIvPjwvc3ZnPg%3D%3D&logoColor=bae6fd&labelColor=07090f"/>
       <img alt="tmux" src="https://img.shields.io/badge/-tmux-0c1018?style=flat-square&logo=tmux&logoColor=bae6fd&labelColor=07090f"/>
       <img alt="Cloudflare" src="https://img.shields.io/badge/-Cloudflare-0c1018?style=flat-square&logo=cloudflare&logoColor=bae6fd&labelColor=07090f"/>
       <img alt="Netdata" src="https://img.shields.io/badge/-Netdata-0c1018?style=flat-square&logo=netdata&logoColor=bae6fd&labelColor=07090f"/>

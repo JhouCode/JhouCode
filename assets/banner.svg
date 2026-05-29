@@ -74,20 +74,19 @@
   <path d="M 450,300 L 500,299 L 560,300 L 620,299.5 L 680,300 L 740,299 L 800,299.5 L 860,300 L 920,299 L 980,300 L 1040,299.5 L 1100,300 L 1160,299 L 1224,299.5"
         fill="none" stroke="url(#calmLine)" stroke-width="1.8" stroke-linecap="round"/>
 
-  <!-- monograma -->
-  <g transform="translate(56, 80)">
-    <rect x="0" y="0" width="52" height="52" rx="10" fill="#0c1018" stroke="url(#monoStroke)" stroke-width="1"/>
-    <rect x="0" y="0" width="52" height="52" rx="10" fill="none" stroke="#7dd3fc" stroke-opacity="0.05" stroke-width="3"/>
-    <text x="26" y="34" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="22" fill="#bae6fd" letter-spacing="-0.5">JV</text>
-    <circle cx="46" cy="6" r="2.5" fill="#34d399">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
   <!-- prompt -->
-  <text x="128" y="100" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#7dd3fc">~/jhou</text>
-  <text x="172" y="100" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#5b6478">$</text>
-  <text x="184" y="100" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#9aa3b5">whoami --verbose</text>
+  <text x="56" y="100" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#7dd3fc">~/jhou</text>
+  <text x="100" y="100" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#5b6478">$</text>
+  <text x="112" y="100" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#9aa3b5">whoami --verbose</text>
+
+  <!-- pill 24/7 (clonada do jhou.tech .status-badge) -->
+  <g transform="translate(260, 88)">
+    <rect x="0" y="0" width="56" height="20" rx="10" fill="#34d399" fill-opacity="0.06" stroke="#34d399" stroke-opacity="0.16" stroke-width="1"/>
+    <circle cx="11" cy="10" r="3" fill="#34d399">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="20" y="14" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" fill="#34d399" letter-spacing="0.4">24/7</text>
+  </g>
 
   <!-- nome + tagline -->
   <text x="56" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="46" fill="#f6f8fc" letter-spacing="-0.8">Jhonatan Viana</text>
