@@ -180,16 +180,12 @@ $ tail -1 ~/now.log
 
 <br/>
 
-<h3>&nbsp;<code>~/palette</code></h3>
-
-<p align="center">
-  <img src="./assets/palette.svg" alt="Paleta — cyan dessat (sky-300 → sky-200) · zinco · ok / alert" width="100%"/>
-</p>
-
-<br/>
-
 <p align="center">
   <sub><code>~$ uptime &nbsp;—&nbsp; sistemas em pé desde que aprendi a derrubá-los com cuidado.</code></sub>
+</p>
+
+<p align="center">
+  <img src="./assets/palette.svg" alt="" width="60%" style="opacity:0.7"/>
 </p>
 
 <p align="center">
