@@ -3,6 +3,8 @@
 </p>
 
 <p align="center">
+  <a href="https://play.jhou.tech"><img alt="play.jhou.tech — servidor LIVE" src="https://img.shields.io/badge/play.jhou.tech-%E2%96%B6%20LIVE-064e3b?style=flat-square&labelColor=07090f"/></a>
+  &nbsp;
   <a href="https://jhou.tech"><img alt="jhou.tech" src="https://img.shields.io/badge/-jhou.tech-0c1018?style=flat-square&logo=cloudflare&logoColor=bae6fd&labelColor=07090f"/></a>
   &nbsp;
   <a href="https://www.linkedin.com/in/jhonatanviana/"><img alt="LinkedIn" src="https://img.shields.io/badge/-linkedin-0c1018?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NSAyMC40NWgtMy41NlYxNC45YzAtMS4zMi0uMDMtMy4wMi0xLjg0LTMuMDItMS44NCAwLTIuMTMgMS40NC0yLjEzIDIuOTN2NS42NUg5LjM2VjloMy40MnYxLjU2aC4wNWEzLjc1IDMuNzUgMCAwMTMuMzctMS44NWMzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2ek01LjM0IDcuNDNhMi4wNiAyLjA2IDAgMTEwLTQuMTIgMi4wNiAyLjA2IDAgMDEwIDQuMTJ6bTEuNzggMTMuMDJIMy41NlY5aDMuNTZ6TTIyLjIyIDBIMS43N0MuOCAwIDAgLjc3IDAgMS43M3YyMC41NEMwIDIzLjIzLjggMjQgMS43NyAyNGgyMC40NWMuOTggMCAxLjc4LS43NyAxLjc4LTEuNzNWMS43M0MyNCAuNzcgMjMuMiAwIDIyLjIyIDB6Ii8%2BPC9zdmc%2B&logoColor=bae6fd&labelColor=07090f"/></a>
@@ -33,9 +35,11 @@ drwxr-xr-x   stack/         # ferramentas
 
 <h3 id="sobre">&nbsp;<code>~/sobre</code></h3>
 
-Especialista em Soluções de TI na **Pense Rede** (Cariacica, ES). Trabalho no ponto em que infraestrutura encontra produto — desde a operação que sustenta o sistema até a decisão técnica que define o roadmap.
+Construo e mantenho infraestrutura que não pode cair — e seguro a decisão técnica que vem junto. Especialista em Soluções de TI na **Pense Rede** (Cariacica, ES), atuo no ponto em que a operação encontra o produto: do terminal que sustenta o sistema ao roadmap que define pra onde ele vai.
 
-Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada projeto vira um laboratório.
+Aprendo construindo: monto, quebro, reconstruo, documento. Cada projeto vira laboratório — **e o maior deles roda 24/7 em produção pública, sozinho, do core em C++ ao edge.** 👇
+
+<sub><i>I build and keep critical infrastructure alive — and own the technical calls that come with it. The proof runs 24/7: a public WoW realm, solo, from the C++ core to the edge. 👇</i></sub>
 
 <br/>
 
@@ -84,6 +88,8 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
     </td>
   </tr>
 </table>
+
+<sub>&nbsp;No mesmo realm orbitam outros laboratórios: <b>painel do jogador</b> (Flask, <a href="https://play.jhou.tech">play.jhou.tech</a>) &nbsp;·&nbsp; <b>site institucional</b> (<a href="https://jhou.tech">jhou.tech</a>) &nbsp;·&nbsp; <b>automações de operação</b> (backups off-site, DDNS, WhatsApp/Evolution) &nbsp;·&nbsp; <b>fork do core</b> com patches próprios.</sub>
 
 <details>
   <summary>&nbsp;<sub><b>📐 &nbsp; SERVICE MAP COMPLETO &nbsp; ·  &nbsp; abrir</b></sub></summary>
