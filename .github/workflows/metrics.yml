@@ -40,6 +40,8 @@ jobs:
           # action filtra commits por autor. lista TODAS as identidades
           # que aparecem em git log (web GH, servidor, gmail antigo, etc.)
           commits_authoring: >-
+            mangos@wow-server,
+            mangos,
             JhouCode,
             jhou@jhou.tech,
             jhonatan.pgd@gmail.com,
