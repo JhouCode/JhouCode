@@ -180,9 +180,8 @@ Aprendo construindo: monto, quebro, reconstruo, documento. Cada projeto vira lab
 
 ```log
 $ tail -1 ~/now.log
-[2026-05-29]  refatorando JS inline dos templates do painel para arquivos externos
-              e removendo 'unsafe-inline' do script-src no CSP. próximo na fila:
-              CSRF per-user (destrava multi-worker no gunicorn).
+[2026-05-30]  ligando core dump e configurando rotação de logs para investigar crash-loop recorrente do mangosd em produção e coletar backtrace
+              próximo na fila: revisão do motivo dos rollbacks esporádicos nos players
 ```
 
 </td></tr>
