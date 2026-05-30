@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img" aria-label="Top languages — code distribution">
+  <defs>
+    <style>
+      .t  { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 12px; fill: #7DD3FC; }
+      .s  { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 9px;  fill: #3a4253; letter-spacing: 0.8px; }
+      .l  { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 11px; fill: #BAE6FD; }
+      .p  { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 11px; fill: #9aa3b5; }
+    </style>
+  </defs>
+
+  <!-- card -->
+  <rect x="0.5" y="0.5" width="519" height="199" rx="8" fill="#07090F" stroke="#1A2030" stroke-width="1"/>
+
+  <!-- title -->
+  <text class="t" x="16" y="24">top languages</text>
+  <text class="s" x="16" y="40">// CODE DISTRIBUTION · JHOU TBC + PUBLIC REPOS</text>
+
+  <!-- bar (total 488px, x16-x504) -->
+  <!-- HTML 40.2 % = 196px -->
+  <rect x="16"  y="56" width="196" height="14" fill="#E34C26" fill-opacity="0.8"/>
+  <!-- SQL 29.6 % = 145px -->
+  <rect x="212" y="56" width="145" height="14" fill="#E38C00" fill-opacity="0.85"/>
+  <!-- Python 15.9 % = 78px -->
+  <rect x="357" y="56" width="78"  height="14" fill="#3572A5"/>
+  <!-- CSS 7.4 % = 36px -->
+  <rect x="435" y="56" width="36"  height="14" fill="#663399" fill-opacity="0.85"/>
+  <!-- Bash 6.0 % = 29px -->
+  <rect x="471" y="56" width="29"  height="14" fill="#89E051" fill-opacity="0.7"/>
+  <!-- JS 0.9 % = 4px -->
+  <rect x="500" y="56" width="4"   height="14" fill="#F1E05A" fill-opacity="0.7"/>
+
+  <!-- legenda — 2 colunas -->
+  <g transform="translate(16, 90)">
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#E34C26" fill-opacity="0.8"/>
+    <text class="l" x="18" y="9">HTML</text>
+    <text class="p" x="220" y="9" text-anchor="end">40.2 %</text>
+  </g>
+  <g transform="translate(16, 108)">
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#E38C00" fill-opacity="0.85"/>
+    <text class="l" x="18" y="9">SQL</text>
+    <text class="p" x="220" y="9" text-anchor="end">29.6 %</text>
+  </g>
+  <g transform="translate(16, 126)">
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#3572A5"/>
+    <text class="l" x="18" y="9">Python</text>
+    <text class="p" x="220" y="9" text-anchor="end">15.9 %</text>
+  </g>
+
+  <g transform="translate(272, 90)">
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#663399" fill-opacity="0.85"/>
+    <text class="l" x="18" y="9">CSS</text>
+    <text class="p" x="220" y="9" text-anchor="end">7.4 %</text>
+  </g>
+  <g transform="translate(272, 108)">
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#89E051" fill-opacity="0.7"/>
+    <text class="l" x="18" y="9">Bash</text>
+    <text class="p" x="220" y="9" text-anchor="end">6.0 %</text>
+  </g>
+  <g transform="translate(272, 126)">
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#F1E05A" fill-opacity="0.7"/>
+    <text class="l" x="18" y="9">JavaScript</text>
+    <text class="p" x="220" y="9" text-anchor="end">0.9 %</text>
+  </g>
+
+  <!-- footer -->
+  <line x1="16" y1="152" x2="504" y2="152" stroke="#1A2030" stroke-width="0.5"/>
+  <text class="s" x="16"  y="168">// 497 KB · JHOU-TBC PRIVATE + PUBLIC REPOS</text>
+  <text class="s" x="16"  y="182">// PATCHES (C++ CORE), DOCS, CONFIGS NOT COUNTED</text>
+  <text class="s" x="504" y="182" text-anchor="end">jhou.tech</text>
+</svg>

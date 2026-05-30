@@ -162,7 +162,7 @@ Meu jeito de aprender é construindo: monto, quebro, reconstruo, documento. Cada
 </table>
 
 <p align="center">
-  <img alt="Languages — top 8 (private repos included via PAT)" src="./github-metrics.svg" width="60%"/>
+  <img alt="Top languages — code distribution: jhou tbc + public repos" src="./assets/top-langs.svg" width="60%"/>
 </p>
 
 <br/>
