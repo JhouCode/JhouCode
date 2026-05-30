@@ -1,45 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" role="img" aria-label="Jhonatan Viana — Infraestrutura · Automação · Sistemas resilientes">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 310" role="img" aria-label="Jhonatan Viana — Infraestrutura · Automação · Sistemas resilientes">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0c1018"/>
       <stop offset="1" stop-color="#07090f"/>
     </linearGradient>
+    <!-- linha em alerta (caos) — fade nas pontas, igual jhou.tech -->
     <linearGradient id="alertLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#fb7185" stop-opacity="0"/>
-      <stop offset="18%" stop-color="#fb7185" stop-opacity="0.5"/>
-      <stop offset="55%" stop-color="#fb7185" stop-opacity="0.88"/>
-      <stop offset="100%" stop-color="#fb7185" stop-opacity="0.65"/>
+      <stop offset="0%"   stop-color="#fb7185" stop-opacity="0"/>
+      <stop offset="12%"  stop-color="#fb7185" stop-opacity="0.6"/>
+      <stop offset="80%"  stop-color="#fb7185" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#fb7185" stop-opacity="0.85"/>
     </linearGradient>
+    <!-- linha normal (calmaria) — fade pra direita -->
     <linearGradient id="calmLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.9"/>
-      <stop offset="70%" stop-color="#7dd3fc" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.1"/>
+      <stop offset="0%"   stop-color="#7dd3fc" stop-opacity="0.85"/>
+      <stop offset="62%"  stop-color="#7dd3fc" stop-opacity="0.55"/>
+      <stop offset="95%"  stop-color="#7dd3fc" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="alertArea" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.18"/>
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.14"/>
       <stop offset="100%" stop-color="#fb7185" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="calmArea" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.12"/>
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.32" cy="0.5" r="0.45">
-      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.06"/>
+    <radialGradient id="glow" cx="0.3" cy="0.4" r="0.5">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="0.6" fill="#1a2030" fill-opacity="0.7"/>
+    <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.55" fill="#1a2030" fill-opacity="0.6"/>
     </pattern>
-    <linearGradient id="monoStroke" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.2"/>
-    </linearGradient>
+    <!-- glow do radar (clona o drop-shadow do jhou.tech) -->
+    <filter id="ringGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
   <!-- canvas -->
-  <rect width="1280" height="360" rx="14" fill="url(#bg)"/>
-  <rect width="1280" height="360" rx="14" fill="url(#dots)"/>
-  <rect width="1280" height="360" rx="14" fill="url(#glow)"/>
+  <rect width="1280" height="310" rx="14" fill="url(#bg)"/>
+  <rect width="1280" height="310" rx="14" fill="url(#dots)"/>
+  <rect width="1280" height="310" rx="14" fill="url(#glow)"/>
 
   <!-- terminal chrome -->
   <rect x="0" y="0" width="1280" height="36" rx="14" fill="#0d121c"/>
@@ -49,79 +53,77 @@
   <circle cx="42" cy="18" r="5.5" fill="#fbbf24" fill-opacity="0.85"/>
   <circle cx="62" cy="18" r="5.5" fill="#34d399" fill-opacity="0.85"/>
   <text x="640" y="23" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#5b6478">jhou@wow-server: ~</text>
-  <text x="1252" y="23" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="11" fill="#3a4253">v.2026.05</text>
-
-  <!-- threshold -->
-  <line x1="56" y1="288" x2="1224" y2="288" stroke="#fb7185" stroke-opacity="0.18" stroke-dasharray="3 5" stroke-width="0.8"/>
-  <text x="60" y="284" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="9" fill="#3a4253" letter-spacing="0.5">SATURATION</text>
-
-  <!-- ÁREA — caos (jagged dense) -->
-  <path d="M 56,300
-           L 70,300 L 80,295 L 90,304 L 100,290 L 110,303 L 120,298 L 130,305 L 140,294 L 150,302 L 160,288 L 170,303 L 180,297 L 190,304 L 200,291 L 210,303 L 220,298 L 230,304 L 240,293 L 250,302 L 260,290 L 270,304 L 280,297 L 290,303 L 300,294 L 310,303 L 320,291 L 330,302 L 340,297 L 350,303 L 360,294 L 370,302 L 380,290 L 390,303 L 400,297 L 410,302 L 420,295 L 430,301 L 440,298 L 450,300
-           L 1224,300 L 1224,360 L 56,360 Z"
-        fill="url(#alertArea)"/>
-
-  <!-- ÁREA — calmaria -->
-  <path d="M 450,300 L 500,299 L 560,300 L 620,299.5 L 680,300 L 740,299 L 800,299.5 L 860,300 L 920,299 L 980,300 L 1040,299.5 L 1100,300 L 1160,299 L 1224,299.5
-           L 1224,360 L 450,360 Z"
-        fill="url(#calmArea)"/>
-
-  <!-- LINHA caos -->
-  <path d="M 56,300 L 70,300 L 80,295 L 90,304 L 100,290 L 110,303 L 120,298 L 130,305 L 140,294 L 150,302 L 160,288 L 170,303 L 180,297 L 190,304 L 200,291 L 210,303 L 220,298 L 230,304 L 240,293 L 250,302 L 260,290 L 270,304 L 280,297 L 290,303 L 300,294 L 310,303 L 320,291 L 330,302 L 340,297 L 350,303 L 360,294 L 370,302 L 380,290 L 390,303 L 400,297 L 410,302 L 420,295 L 430,301 L 440,298 L 450,300"
-        fill="none" stroke="url(#alertLine)" stroke-width="1.4" stroke-linejoin="round"/>
-
-  <!-- LINHA calmaria -->
-  <path d="M 450,300 L 500,299 L 560,300 L 620,299.5 L 680,300 L 740,299 L 800,299.5 L 860,300 L 920,299 L 980,300 L 1040,299.5 L 1100,300 L 1160,299 L 1224,299.5"
-        fill="none" stroke="url(#calmLine)" stroke-width="1.8" stroke-linecap="round"/>
 
   <!-- prompt -->
-  <text x="56" y="100" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#7dd3fc">~/jhou</text>
-  <text x="100" y="100" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#5b6478">$</text>
-  <text x="112" y="100" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#9aa3b5">whoami --verbose</text>
+  <text x="56" y="82" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12.5" fill="#7dd3fc">~/jhou</text>
+  <text x="102" y="82" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12.5" fill="#5b6478">$</text>
+  <text x="116" y="82" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12.5" fill="#9aa3b5">whoami</text>
 
-  <!-- pill 24/7 (clonada do jhou.tech .status-badge) -->
-  <g transform="translate(260, 88)">
-    <rect x="0" y="0" width="56" height="20" rx="10" fill="#34d399" fill-opacity="0.06" stroke="#34d399" stroke-opacity="0.16" stroke-width="1"/>
-    <circle cx="11" cy="10" r="3" fill="#34d399">
-      <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <text x="20" y="14" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" fill="#34d399" letter-spacing="0.4">24/7</text>
-  </g>
-
-  <!-- nome + tagline -->
-  <text x="56" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="46" fill="#f6f8fc" letter-spacing="-0.8">Jhonatan Viana</text>
-  <text x="56" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="500" font-size="17" fill="#7dd3fc" letter-spacing="0.5">Infraestrutura  ·  Automação  ·  Sistemas resilientes</text>
-
-  <!-- divider -->
-  <line x1="56" y1="226" x2="156" y2="226" stroke="#7dd3fc" stroke-opacity="0.4" stroke-width="1"/>
-  <line x1="160" y1="226" x2="220" y2="226" stroke="#1a2030" stroke-width="1"/>
-
-  <!-- tagline pt + en -->
-  <text x="56" y="252" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#9aa3b5">Engenharia operacional para sistemas que não podem parar.</text>
-  <text x="56" y="272" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-style="italic" font-size="13" fill="#5b6478">Operational engineering for systems that can&apos;t go down.</text>
-
-  <!-- status pill (canto sup. dir.) -->
-  <g transform="translate(1064, 76)">
-    <rect x="0" y="0" width="160" height="30" rx="15" fill="#0c1018" stroke="#1a2030" stroke-width="1"/>
+  <!-- live pill (canto sup. dir.) -->
+  <g transform="translate(1066, 64)">
+    <rect x="0" y="0" width="158" height="30" rx="15" fill="#0c1018" stroke="#1a2030" stroke-width="1"/>
     <circle cx="18" cy="15" r="4" fill="#34d399">
       <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
     </circle>
     <text x="30" y="19" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="11" fill="#e9edf5" letter-spacing="0.5">JHOU TBC  ·  LIVE</text>
   </g>
+  <text x="1224" y="114" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10.5" fill="#3a4253" letter-spacing="0.6">prod desde mai/2026 · solo</text>
 
-  <!-- meta block direito -->
-  <g transform="translate(1224, 132)" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, monospace">
-    <text font-size="9" fill="#3a4253" letter-spacing="1.2">LOCATION</text>
-    <text y="16" font-size="12" fill="#9aa3b5">cariacica · es · br</text>
+  <!-- nome + role -->
+  <text x="56" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="48" fill="#f6f8fc" letter-spacing="-0.9">Jhonatan Viana</text>
+  <text x="56" y="183" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="500" font-size="17" fill="#7dd3fc" letter-spacing="0.4">Infraestrutura  ·  Automação  ·  Sistemas resilientes</text>
 
-    <text y="44" font-size="9" fill="#3a4253" letter-spacing="1.2">ROLE</text>
-    <text y="60" font-size="12" fill="#9aa3b5">soluções de ti · pense rede</text>
+  <!-- divider -->
+  <line x1="56" y1="205" x2="150" y2="205" stroke="#7dd3fc" stroke-opacity="0.4" stroke-width="1"/>
+  <line x1="154" y1="205" x2="200" y2="205" stroke="#1a2030" stroke-width="1"/>
 
-    <text y="88" font-size="9" fill="#3a4253" letter-spacing="1.2">PROD SINCE</text>
-    <text y="104" font-size="12" fill="#9aa3b5">2026-05-16</text>
+  <!-- positioning pt + en -->
+  <text x="56" y="231" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" fill="#cdd4e0">Sistemas que não podem parar — do core em C++ ao edge, sozinho.</text>
+  <text x="56" y="251" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-style="italic" font-size="12.5" fill="#5b6478">Systems that can&apos;t go down — C++ core to edge, solo.</text>
+
+  <!-- ===== CHART DE ASSINATURA: caos -> jhou.in -> nominal ===== -->
+  <!-- area caos -->
+  <path d="M 56,272 L 64,276 L 72,269 L 80,277 L 88,271 L 96,265 L 104,276 L 112,271 L 120,277 L 128,270 L 136,276 L 144,266 L 152,277 L 160,271 L 168,276 L 176,269 L 184,277 L 192,267 L 200,276 L 208,271 L 216,277 L 224,270 L 232,276 L 240,265 L 248,277 L 256,271 L 264,276 L 272,270 L 280,277 L 288,268 L 296,276 L 304,271 L 312,277 L 320,270 L 328,276 L 336,266 L 344,277 L 352,271 L 360,276 L 368,270 L 376,277 L 384,268 L 392,276 L 400,272 L 408,275 L 414,278 L 420,281 L 426,283 L 430,285 L 430,300 L 56,300 Z"
+        fill="url(#alertArea)"/>
+  <!-- area calmaria -->
+  <path d="M 430,285 L 480,285 L 540,284.5 L 600,285 L 670,284.5 L 740,285 L 810,284.5 L 880,285 L 960,284.5 L 1040,285 L 1120,284.5 L 1224,285 L 1224,300 L 430,300 Z"
+        fill="url(#calmArea)"/>
+
+  <!-- linha caos -->
+  <path d="M 56,272 L 64,276 L 72,269 L 80,277 L 88,271 L 96,265 L 104,276 L 112,271 L 120,277 L 128,270 L 136,276 L 144,266 L 152,277 L 160,271 L 168,276 L 176,269 L 184,277 L 192,267 L 200,276 L 208,271 L 216,277 L 224,270 L 232,276 L 240,265 L 248,277 L 256,271 L 264,276 L 272,270 L 280,277 L 288,268 L 296,276 L 304,271 L 312,277 L 320,270 L 328,276 L 336,266 L 344,277 L 352,271 L 360,276 L 368,270 L 376,277 L 384,268 L 392,276 L 400,272 L 408,275 L 414,278 L 420,281 L 426,283 L 430,285"
+        fill="none" stroke="url(#alertLine)" stroke-width="1.2" stroke-linejoin="miter" stroke-linecap="square"/>
+  <!-- linha calmaria -->
+  <path d="M 430,285 L 480,285 L 540,284.5 L 600,285 L 670,284.5 L 740,285 L 810,284.5 L 880,285 L 960,284.5 L 1040,285 L 1120,284.5 L 1224,285"
+        fill="none" stroke="url(#calmLine)" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- nó jhou.in: radar ping (3 aneis escalonados) + ancora estatica -->
+  <g filter="url(#ringGlow)">
+    <!-- ring 1 -->
+    <circle cx="430" cy="285" r="2" fill="none" stroke="#67e8f9" stroke-width="1.4" opacity="0">
+      <animate attributeName="r" dur="3.6s" begin="0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" values="2;18" keySplines="0.2 0.55 0.4 1"/>
+      <animate attributeName="opacity" dur="3.6s" begin="0s" repeatCount="indefinite" keyTimes="0;0.15;0.70;1" values="0;0.9;0.4;0"/>
+    </circle>
+    <!-- ring 2 (delay -1.2s) -->
+    <circle cx="430" cy="285" r="2" fill="none" stroke="#67e8f9" stroke-width="1.4" opacity="0">
+      <animate attributeName="r" dur="3.6s" begin="-1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" values="2;18" keySplines="0.2 0.55 0.4 1"/>
+      <animate attributeName="opacity" dur="3.6s" begin="-1.2s" repeatCount="indefinite" keyTimes="0;0.15;0.70;1" values="0;0.9;0.4;0"/>
+    </circle>
+    <!-- ring 3 (delay -2.4s) -->
+    <circle cx="430" cy="285" r="2" fill="none" stroke="#67e8f9" stroke-width="1.4" opacity="0">
+      <animate attributeName="r" dur="3.6s" begin="-2.4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" values="2;18" keySplines="0.2 0.55 0.4 1"/>
+      <animate attributeName="opacity" dur="3.6s" begin="-2.4s" repeatCount="indefinite" keyTimes="0;0.15;0.70;1" values="0;0.9;0.4;0"/>
+    </circle>
+  </g>
+  <!-- ancora estatica jhou.in: tick + aneis fixos + ponto -->
+  <g>
+    <line x1="430" y1="266" x2="430" y2="285" stroke="#7dd3fc" stroke-width="0.6" opacity="0.45"/>
+    <circle cx="430" cy="285" r="6" fill="none" stroke="#7dd3fc" stroke-width="0.5" opacity="0.25"/>
+    <circle cx="430" cy="285" r="3.2" fill="none" stroke="#7dd3fc" stroke-width="0.7" opacity="0.6"/>
+    <circle cx="430" cy="285" r="1.8" fill="#7dd3fc"/>
   </g>
 
-  <!-- footer signature -->
-  <text x="56" y="340" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" fill="#3a4253" letter-spacing="1.2">// CARIACICA → INTERNET · SOLO OPS · BARE METAL</text>
-  <text x="1224" y="340" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="10" fill="#3a4253" letter-spacing="1.2">jhou.tech</text>
+  <!-- microlabels da narrativa -->
+  <text x="56" y="303" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="9" letter-spacing="0.5"><tspan fill="#fb7185" fill-opacity="0.7">//</tspan><tspan fill="#3a4253"> pré-jhou</tspan></text>
+  <text x="430" y="303" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="9" letter-spacing="0.5"><tspan fill="#7dd3fc" fill-opacity="0.7">▸</tspan><tspan fill="#5b6478"> jhou.in</tspan></text>
+  <text x="1224" y="303" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="9" letter-spacing="0.5"><tspan fill="#3a4253">// nominal</tspan></text>
 </svg>
