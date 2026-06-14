@@ -180,8 +180,8 @@ Aprendo construindo: monto, quebro, reconstruo, documento. Cada projeto vira lab
 
 ```log
 $ tail -1 ~/now.log
-[2026-05-30]  ligando core dump e configurando rotação de logs para investigar crash-loop recorrente do mangosd em produção e coletar backtrace
-              próximo na fila: revisão do motivo dos rollbacks esporádicos nos players
+[2026-06-14]  refatorando e fazendo arqueologia de código C++ legado pra modernizar a IA dos bots do realm — entendendo o motor antigo antes de evoluí-lo
+              próximo na fila: refinar a rotação e o comportamento de combate dos bots
 ```
 
 </td></tr>
